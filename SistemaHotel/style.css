@@ -1,0 +1,239 @@
+header{
+    height: 10vh;
+
+    border: 1px;
+    border-style: solid;
+    border-color: purple;
+
+    display: flex;
+
+    align-items: center;
+    align-content: center;
+    align-self: center;
+
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+main{
+    height: 80vh;
+
+    border: 1px;
+    border-style: solid;
+    border-color: green;
+
+    display: flex;
+}
+main>div{
+    width: 100%;
+}
+
+.cards>ul{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-items: center;
+    align-content: space-around;
+
+    justify-content: space-around;
+    justify-items: center;
+}
+
+
+.cards>ul>li{
+    width: 42%;
+    height: 40%;
+
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blue;
+
+    display: flex;
+}
+.cards>ul>li>a{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.extra>div{
+    height: 50%;
+}
+
+.up>.widget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.down>.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+.down>div{
+    height: 80%;
+    width: 40%;
+}
+.right{
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.widget{
+    height: 80%;
+    width: 80%;
+
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blue;
+}
+
+/*CONTROLE.HTML*/
+
+.TV>ul>li{
+    width: 50%;
+    height: 20%;
+
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blue;
+
+    display: flex;
+}
+.TV>ul>li>a{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TV>ul{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    align-content: space-around;
+
+    justify-content: space-around;
+    justify-items: center;
+}
+
+
+.luz>ul>li{
+    width: 50%;
+    height: 40%;
+
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blue;
+
+    display: flex;
+}
+.luz>ul>li>a{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.luz>ul{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+    
+
+    align-items: center;
+    align-content: space-around;
+
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.arcond>ul>li{
+    width: 50%;
+    height: 40%;
+
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: blue;
+
+    display: flex;
+}
+.arcond>ul>li>a{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arcond>ul{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+    
+
+    align-items: center;
+    align-content: space-around;
+
+    justify-content: space-around;
+    justify-items: center;
+}
+
+footer{
+    height: 10vh;
+
+    border: 1px;
+    border-style: solid;
+    border-color: blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
